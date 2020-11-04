@@ -187,10 +187,10 @@ function buttonSwitch() {
   $("#unanswered").remove();
   $("#submit-button").hide();
   
-  if (STORE.questionNumber < 10) {
+  if (STORE.questionNumber < 5) {
       $("#next-question").show();
     }
-  else if (STORE.questionNumber === 10) {
+  else if (STORE.questionNumber === 5) {
     $("#show-results").show();
   }
 }

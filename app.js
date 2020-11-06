@@ -104,7 +104,7 @@ function homePage() {
   const homePageHTML = 
   `<header role="banner" aria-live="polite">
   <h1 class="title-homepage">Avengers Coding Quiz</h1>
-  <h2 class="secondary-text">Are ready to join the Avengers and save the world with coding?</h2>
+  <h2 class="secondary-text">Are ready to join coding superheroes and save the world with coding?</h2>
   </header>
   <main id="home-page" aria-live="polite">
   <form id="start-page">

@@ -136,7 +136,7 @@ function resultPage(){
   </main>`
 
   if (STORE.currentScore >= 3) {
-    $('body').html(resultPageHTML + `<h3 class="above-3"><img class="finalpics" src="https://media.giphy.com/media/ckeHl52mNtoq87veET/giphy.gif"/><a href="https://classvisa.com/booknow">Congrats!! Click to join other Coding Super heros!</a></h3></header>` + restartButton);
+    $('body').html(resultPageHTML + `<h3 class="above-3"><img class="finalpics" src="https://media.giphy.com/media/ckeHl52mNtoq87veET/giphy.gif"/>You are now a Coding Super hero!!!</h3></header>` + restartButton);
   }
   else if (STORE.currentScore < 3) {
     $('body').html(resultPageHTML + `<h3 class="below-3"><img class="losepics" src="https://media.giphy.com/media/LOoaJ2lbqmduxOaZpS/giphy.gif"/>You couldn't save the world with your code!</h3></header>` + restartButton);
